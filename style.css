@@ -24,11 +24,29 @@
 
 .child{
     padding: 20px;
-    margin: 20px;
+    /* height: min-contents; */
 }
 
 #parent{
+    gap: 20px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /* height: 100vh; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
 }
+
+#child1{
+    flex-grow: 1;
+}
+
+#child2{
+    flex-grow: 1;
+}
+/* #child3{
+    flex-grow: 1;
+}
+#child4{
+    flex-grow: 1;
+} */
