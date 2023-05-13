@@ -38,15 +38,19 @@
 }
 
 #child1{
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    justify-self: center ;
 }
 
 #child2{
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
-/* #child3{
-    flex-grow: 1;
+ #child3{
+    /* flex-grow: 1; */
+    /* order: -1; */
 }
 #child4{
-    flex-grow: 1;
-} */
+    /* flex-grow: 1; */
+    /* order: 101; */
+    align-self: center;
+} 
