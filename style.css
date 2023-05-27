@@ -35,6 +35,15 @@ body {
 p {
   color: #dde6ed;
 }
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #27374d;
+  text-align: center;
+}
 /* Medium Screen ( 992 < width <= 768) 
 
 @media (max-width: 992px) {
