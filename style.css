@@ -1,0 +1,36 @@
+body {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-div {
+  background-color: #27374d;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+}
+
+.grid-cards {
+  background-color: #526d82;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.flex-parent {
+  display: flex;
+  gap: 20px;
+}
+
+.flex-img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+p {
+  color: #dde6ed;
+}
