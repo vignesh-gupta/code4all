@@ -3,6 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #dde6ed;
 }
 
 .parent-div {
@@ -34,3 +35,36 @@ body {
 p {
   color: #dde6ed;
 }
+/* Medium Screen ( 992 < width <= 768) 
+
+@media (max-width: 992px) {
+  body {
+    background-color: #526d82;
+  }
+  .parent-div {
+    width: 90%;
+  }
+}
+*/
+
+/* Small Screen ( 767 < width <= 576) 
+@media (max-width: 767px) {
+  body {
+    background-color: #9db2bf;
+  }
+  .parent-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+*/
+/* Extra Small ( 575 <= width )   
+@media (max-width: 575px) {
+  body {
+    background-color: black;
+  }
+  p{
+    font-size: 15px;
+  }
+} 
+
+*/
