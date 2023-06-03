@@ -1,0 +1,21 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+
+div{
+  width: 100px;
+  height: 100px;
+  background-color: #ff0000;
+  border-radius:10px;
+  padding: 10px;
+}
+
+div:hover{
+  transform: translateY(-2px);
+  transition: all 1s ease-in-out;
+  box-shadow: #000 5px 2px 10px;
+}
