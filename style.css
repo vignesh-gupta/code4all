@@ -1,3 +1,21 @@
-.external-class{
+
+.container{
+  border: 1px solid black;
+  
+}
+
+.childs{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+#child-1{
+  background-color: red;
+  position: relative;
+  top: 10px;
+}
+
+#child-2{
   background-color: blue;
 }
