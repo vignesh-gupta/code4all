@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+
+    .content{
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation: move 2s infinite;
+      margin: 2px;
+    }
+
+    .parent{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card{
+      border-radius: 25px;
+      width: 200px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: cadetblue;
+      color: white;
+      border: 10px solid white;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="child1 card">1</div>
+    <div class="child2 card">2</div>
+    <div class="child2 card">2</div>
+    <div class="child2 card">2</div>
+    <div class="child2 card">2</div>
+    <div class="child2 card">2</div>
+  </div>
+
+  <div class="wrapper">
+    <div class="content">1</div>
+  </div>
+
+  
+</body>
+</html>
