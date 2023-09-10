@@ -4,17 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Stop Watch</h1>
     <h2 id="time">00 : 00 : 00</h2>
 
     <div class="btns">
-      <button type="button" id="start-btn">Start</button>
-      <button type="button" id="stop-btn" >Stop</button>
+      <button type="button" id="start-btn" class="">Start</button>
+      <button type="button" id="stop-btn" class="btn-hidden">Stop</button>
       <!-- <button type="button" id="start-stop" >Reset</button> -->
       <button type="button" id="reset-btn" >Reset</button>
+      <button type="button" id="lap-btn" >Flag</button>
     </div>
+
+    <ul id="laps-list"></ul>
 
     <script src="./main.js"></script>
   </body>
