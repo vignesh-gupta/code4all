@@ -1,3 +1,6 @@
+document.getElementById("container").innerHTML =
+  "<strong>Please allow to access location to be able to work</strong>";
+
 let icon = document.getElementById("icon");
 let conditionTxt = document.getElementById("condition");
 let locationTxt = document.getElementById("location");
@@ -23,13 +26,19 @@ async function fetchData(lon = 0, lat = 0) {
 }
 
 // Fetch user location
-navigator.geolocation.getCurrentPosition((pos) => {
-  let lat = pos.coords.latitude,
-    lon = pos.coords.longitude;
+navigator.geolocation.getCurrentPosition(
+  (pos) => {
+    let lat = pos.coords.latitude,
+      lon = pos.coords.longitude;
 
-  fetchData(lon, lat);
+    fetchData(lon, lat);
 
-  console.log({ lat, lon });
-}, () => {
-  document.getElementById("container").innerHTML = "<strong>Please allow to access location to be able to work</strong>"
-});
+    console.log({ lat, lon });
+  },
+  () => {
+    document.getElementById("container").innerHTML =
+      "<strong>Please allow to access location to be able to work</strong>";
+  }
+);
+
+
