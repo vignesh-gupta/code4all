@@ -1,3 +1,6 @@
+document.getElementById("container").innerHTML =
+  "<strong>Please allow to access location to be able to work</strong>";
+
 let icon = document.getElementById("icon");
 let conditionTxt = document.getElementById("condition");
 let locationTxt = document.getElementById("location");
